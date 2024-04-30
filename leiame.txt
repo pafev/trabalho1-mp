@@ -1,0 +1,44 @@
+Tenha certeza de ter instalado na sua maquina:
+- cpplint
+- cppcheck
+- valgrind
+- gdb
+- g++ (build-essentials)
+- gcov
+
+
+Para rodar os testes, rode no terminal:
+
+> make romano.o
+> make testa_romano
+> make test
+
+
+Para verificar com cpplint, rode no terminal:
+
+> make cpplint
+
+
+Para verificar com cppcheck, rode no terminal:
+
+> make cppcheck
+
+
+Para verificar com valgrind, rode no terminal:
+
+> make valgrind
+
+
+Para verificar com o gcov, rode no terminal:
+
+> make gcov
+
+
+Para debugar, rode no terminal:
+
+> make debug
+
+
+Para limpar o repositorio com os arquivos executaveis gerados, rode no terminal:
+
+> make clean
